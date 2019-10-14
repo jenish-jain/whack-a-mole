@@ -1,0 +1,42 @@
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+
+
+</head>
+<body>
+    <div>
+        <center>
+        <p class="heading">
+            Whack that Mole 🦔
+        </p>
+    </center>
+       <center> <p class= "sub-heading">before it goes in the hole</p></center>
+    </div>
+    <div class="gamedesc"> <p> Time: &nbsp;</p><p id="clock">60</p><p> &nbsp;Current Score: &nbsp;</p><p id= "currentScore">0</p></div>
+    <table>
+<tr>
+    <td> <div id ="1" class="mole" onclick="hole('1')"></div></td>
+    <td> <div id = "2" class="mole" onclick="hole('2')"></div></td>
+    <td> <div id = "3" class="mole" onclick="hole('3')"></div></td>
+</tr>
+<tr>
+        <td> <div id = "4" class="mole" onclick="hole('4')"></div></td>
+        <td> <div id = "5" class="mole" onclick="hole('5')"></div></td>
+        <td> <div id = "6" class="mole" onclick="hole('6')"></div></td>
+    </tr>
+    <tr>
+            <td> <div id = "7"class="mole" onclick="hole('7')"></div></td>
+            <td> <div id = "8" class="mole" onclick="hole('8')"></div></td>
+            <td> <div id = "9" class="mole" onclick="hole('9')"></div></td>
+        </tr>
+    </table>
+
+    <button onclick="startGame()" id= "startbtn">Start Whacking</button>
+
+
+</body>
+</html>
