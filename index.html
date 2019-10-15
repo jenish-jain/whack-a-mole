@@ -16,27 +16,34 @@
     </center>
        <center> <p class= "sub-heading">before it goes in the hole</p></center>
     </div>
-    <div class="gamedesc"> <p> Time: &nbsp;</p><p id="clock">60</p><p> &nbsp;Current Score: &nbsp;</p><p id= "currentScore">0</p></div>
+
+    <div class="gamedesc"> 
+        <p> Time: &nbsp;</p><p id="clock">0</p> 
+        <p> &nbsp;Your Score: &nbsp;</p><p id= "currentScore">0</p>
+        <p> &nbsp;High Score: &nbsp;</p> <p id="highScore">0</p>
+    </div>
+
+    
     <table>
 <tr>
-    <td> <div id ="1" class="mole" onclick="hole('1')"></div></td>
-    <td> <div id = "2" class="mole" onclick="hole('2')"></div></td>
-    <td> <div id = "3" class="mole" onclick="hole('3')"></div></td>
+    <td> <div  class="holes" ></div></td>
+    <td> <div  class="holes" ></div></td>
+    <td> <div  class="holes" ></div></td>
 </tr>
 <tr>
-        <td> <div id = "4" class="mole" onclick="hole('4')"></div></td>
-        <td> <div id = "5" class="mole" onclick="hole('5')"></div></td>
-        <td> <div id = "6" class="mole" onclick="hole('6')"></div></td>
+        <td> <div  class="holes" ></div></td>
+        <td> <div  class="holes" ></div></td>
+        <td> <div  class="holes" ></div></td>
     </tr>
     <tr>
-            <td> <div id = "7"class="mole" onclick="hole('7')"></div></td>
-            <td> <div id = "8" class="mole" onclick="hole('8')"></div></td>
-            <td> <div id = "9" class="mole" onclick="hole('9')"></div></td>
+            <td> <div  class="holes" "></div></td>
+            <td> <div  class="holes" "></div></td>
+            <td> <div  class="holes" "></div></td>
         </tr>
     </table>
 
     <button onclick="startGame()" id= "startbtn">Start Whacking</button>
-
-
+<div id= "disclaimer"> <p> 🎮 The game speed gradually increase after every 20 points you score 🎮</p></div>
+    <script src="script.js"></script>
 </body>
 </html>
