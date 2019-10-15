@@ -49,7 +49,7 @@ function whackCheck(event) {
         document.getElementById("currentScore").innerText = currentScore;
 
         if(newMoleTime >100){
-            newMoleTime = 1000 - Math.floor(currentScore/20)*50;
+            newMoleTime = 1000 - Math.floor(currentScore/10)*100;
             console.log(newMoleTime);       // the game becoemes gradually tougher as you score higher
         }
         
