@@ -13,3 +13,6 @@ and instead of being time-constrained now clicking the wrong hole ends the game.
 prevent double click on the same hole.
 style alert box
 add animations and styling to whole game
+
+
+you can view the project here: https://jenish-jain.github.io/whack-a-mole/
