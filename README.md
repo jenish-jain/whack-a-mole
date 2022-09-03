@@ -8,7 +8,7 @@ also now the game speed increased gradually as you score high and a high score f
 at the end, an alert is displayed with your score.
 and instead of being time-constrained now clicking the wrong hole ends the game.
 
-[scopes of imporvements]
+[scopes of improvement]
 
 prevent double click on the same hole.
 style alert box
